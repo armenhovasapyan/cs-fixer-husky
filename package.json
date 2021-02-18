@@ -5,7 +5,7 @@
     "prettier": "^2.0.4"
   },
   "lint-staged": {
-    "*.php": "php ./vendor/bin/php-cs-fixer fix --config=.php_cs --verbose --dry-run --using-cache=no --path-mode=intersection --diff -- $(git diff --name-only --diff-filter=ACMRTUXB HEAD~..HEAD)"
+    "*.php": "php ./vendor/bin/php-cs-fixer fix --config .php_cs"
   },
   "husky": {
     "hooks": {
